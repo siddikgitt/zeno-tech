@@ -1,0 +1,53 @@
+body {
+  /* Prevent the user selecting text in the example */
+  user-select: none;
+}
+
+.draggable {
+  text-align: center;
+  padding: 25px;
+  background: white;
+  margin-top: "11px";
+  margin-bottom: "11px";
+  border: 2px solid black;
+  border-radius: 11px;
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainDiv > div {
+  border: 2px solid rgb(3, 2, 2);
+  border-radius: 11px;
+  padding: 15px;
+}
+
+.task-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+.closeIcon{
+    width: 25px;
+    height: 25px;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
